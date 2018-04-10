@@ -8,13 +8,14 @@
 
 :root {
     --base: #ffc600;
-    --spacing: 10px;
+    --padding: 10px;
     --blur: 10px;
     --width: 500px;
+    --border-radius: 0px;
 }
 
 img {
-    padding: var(--spacing);
+    padding: var(--padding);
     background: var(--base);
     filter: blur(var(--blur));
     width: var(--width);
